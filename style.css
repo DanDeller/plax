@@ -1,0 +1,160 @@
+body {
+  background: #4c4c4c;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*********************************
+DEFAULT RULES
+*********************************/  
+.wrapper {
+  display: none;
+  height: 100%;
+  left: 0; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.moveable {
+  position: fixed;
+}
+
+.flex-container {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-wrap { 
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+
+.center { 
+  justify-content: center; 
+}
+
+/*********************************
+FIRST FRAME 
+*********************************/
+#one {
+  background: #1c65e9;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase; 
+}
+
+.intro,
+.subhead {
+  text-shadow: 1px 1px 1px #000;
+}
+
+.intro {
+  top: 46%;
+  left: 0;
+  right: 0;
+  font-size: 24px;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.subhead {
+  top: 50%;
+  left: 0;
+  right: 0;
+  font-size: 15px;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 300;
+}
+
+/*********************************
+SECOND FRAME 
+*********************************/
+#two {
+  background: #f26a34;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.blurb {
+  top: 30%;
+  left: 10%;
+  color: white;
+  width: 400px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.picture {
+  top: 25%;
+  right: 10%;
+  width: 305px;
+  height: 385px;
+  overflow: hidden;
+}
+
+.picture img {
+  width: 100%;
+}
+
+.frame {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.rj {
+  top: 100%;
+  left: 0;
+}
+
+.ufo {
+  top: 60%;
+  left: -400px;
+  width: 400px;
+}
+
+/*********************************
+THIRD FRAME 
+*********************************/
+#three {
+  background: #fff;
+}
+
+.third-blurb {
+  top: 25%;
+  left: 25%;
+}
+
+.shape-hold {
+  top: 50%;
+  left: 40%;
+  width: 200px;
+}
+
+.shape-hold .box {
+  background: #ccc;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+/*********************************
+LAST FRAME 
+*********************************/
+#final {
+  background: #2fde69;
+}
+
+.outro {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  top: 63%;
+  right: 10%;
+  color: white;
+  max-width: 22%;
+}
